@@ -6,6 +6,5 @@ COPY . .
 
 RUN npm install --quiet
 
-EXPOSE 3000
-
 CMD ["node", "/opt/aws/src/index.js"]
+
